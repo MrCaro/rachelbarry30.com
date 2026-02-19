@@ -12,12 +12,12 @@ export default function DialogModal() {
 
   return (
     <div className="absolute top-0 right-0 left-0 mx-auto w-fit pt-6">
-      <button
+      {/* <button
         onClick={() => setOpen(true)}
         className="rounded-md bg-[#C82A5A]/10 px-2.5 py-1.5 text-sm font-semibold text-[#C82A5A] inset-ring inset-ring-[#C82A5A]/5 hover:bg-[#C82A5A]/20"
       >
         open welcome message
-      </button>
+      </button> */}
       <Dialog open={open} onClose={setOpen} className="relative z-10">
         <DialogBackdrop
           transition
