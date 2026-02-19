@@ -67,7 +67,7 @@ export default function Scene() {
         <Background />
         <Balloons />
       </Canvas>
-      {/* <DialogModal /> */}
+      <DialogModal />
     </>
   );
 }
