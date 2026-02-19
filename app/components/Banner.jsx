@@ -5,10 +5,10 @@ export default function Banner() {
         <p className="font-allura text-2xl font-bold text-[#C82A5A] md:text-4xl">
           Rachel's Tequila Sunrise Birthday Party
         </p>
-        <p className="mt-3 text-sm/6 font-bold text-slate-800">
+        <p className="mt-3 text-xs font-bold text-slate-800 md:text-sm">
           1010 Persimmon St, Kissimmee, FL 34747
         </p>
-        <p className="text-sm/6 font-bold text-slate-800">
+        <p className="text-xs font-bold text-slate-800 md:text-sm">
           April 4th, 2026 at 12:30 PM
         </p>
       </div>
